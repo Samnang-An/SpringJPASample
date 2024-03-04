@@ -19,12 +19,15 @@ public class Address {
 	private String city;
 
 	private String zip;
+
+	private String country;
 	
-	public Address(String street, String city, String zip) {
+	public Address(String street, String city, String zip, String country) {
 		super();
 		this.street = street;
 		this.city = city;
 		this.zip = zip;
+		this.country = country;
 	}
 
 	public String getStreet() {
